@@ -1,1 +1,25 @@
-export * as Colors from "https://deno.land/std@0.52.0/fmt/colors.ts";
+import {
+  black,
+  blue,
+  bold,
+  cyan,
+  gray,
+  green,
+  magenta,
+  red,
+  white,
+  yellow,
+} from "https://deno.land/std/fmt/colors.ts";
+
+export const Colors = {
+  black,
+  blue,
+  bold,
+  cyan,
+  gray,
+  green,
+  magenta,
+  red,
+  white,
+  yellow,
+};
